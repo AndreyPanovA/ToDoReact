@@ -1,0 +1,36 @@
+.listBox {
+  border-bottom: 1px solid #d6d6d6;
+  -webkit-box-shadow: -2px 5px 19px -1px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: -2px 5px 19px -1px rgba(0, 0, 0, 0.71);
+  box-shadow: -2px 5px 19px -1px rgba(0, 0, 0, 0.71);
+  width: 50vw;
+  border-radius: 5px;
+  margin: 30px auto;
+  padding: 10px 20px;
+  .todoHeader {
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #d6d6d6;
+    padding: 10px 20px;
+    small {
+      color: #333;
+    }
+  }
+}
+ul {
+  list-style-type: none;
+  width: 100%;
+  height: 100%;
+  li {
+    margin: 0;
+    color: black;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.1s;
+    &:hover {
+      border-bottom: 1px solid lightcoral;
+    }
+  }
+}

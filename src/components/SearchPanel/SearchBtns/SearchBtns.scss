@@ -1,0 +1,26 @@
+button {
+  padding: 10px 20px;
+  //   border-radius: 5px;
+  outline: none;
+  //   margin-right: 10px;
+  border: 1px solid #0065eb;
+  cursor: pointer;
+  p {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  &:hover {
+    border: 1px solid lime;
+  }
+  &:first-child {
+    background-color: #0065eb;
+    color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+  }
+  &:last-child {
+    margin: 0;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+}

@@ -1,0 +1,23 @@
+.Box {
+  padding: 10px 20px;
+  border-bottom: 1px solid #d6d6d6;
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  width: 50vw;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  outline: none;
+  border: 1.7px solid lightblue;
+  cursor: pointer;
+  &::placeholder {
+    color: black;
+  }
+  &:hover {
+    border: 1.7px solid lightgreen;
+  }
+}

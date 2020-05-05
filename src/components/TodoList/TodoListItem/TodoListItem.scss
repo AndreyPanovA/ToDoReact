@@ -1,0 +1,47 @@
+.itemContainer {
+  display: flex;
+  justify-content: space-between;
+  .itemBtns {
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      margin-right: 10px;
+      color: tomato;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid tomato;
+      border-radius: 5px;
+      &:last-child {
+        margin: 0;
+        color: lime;
+        border: 2px solid lime;
+        &:hover {
+          color: white;
+          background-color: lime;
+          -webkit-box-shadow: 0px 0px 8px 0px lightblue;
+          -moz-box-shadow: 0px 0px 8px 0px lightblue;
+          box-shadow: 0px 0px 8px 0px lightblue;
+        }
+      }
+      &:hover {
+        -webkit-box-shadow: 0px 0px 8px 0px tomato;
+        -moz-box-shadow: 0px 0px 8px 0px tomato;
+        box-shadow: 0px 0px 8px 0px tomato;
+      }
+    }
+  }
+}
+
+.done {
+  transition: 0.7s;
+  text-decoration: line-through;
+  color: lime !important;
+  opacity: 0.3;
+}
+.important {
+  color: #0065eb;
+  font-weight: 600;
+}
